@@ -1,0 +1,42 @@
+.header {
+  align-items: center;
+  background: #6A918C;
+  color: #314744;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  left: 0;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 40px);
+  z-index: 10;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+  
+.reset-button {
+  background: #314744;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 20px;
+  transition: ease-in-out all 250ms;
+
+  &:hover {
+    background: rgb(110, 52, 128);
+    transition: ease-in-out all 250ms;
+  }
+}
+
+.guess-count {
+  background: #6A918C;
+  color: #314744;
+  font-weight: 500;
+  padding: 0 20px 10px;
+}
+  
